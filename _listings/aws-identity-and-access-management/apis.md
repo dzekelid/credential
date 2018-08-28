@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Credential
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/credential/master/_listings/aws-identity-and-access-management/apis.md
 specificationVersion: "0.14"
 apis:
@@ -47,6 +47,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/credential/master/_listings/aws-identity-and-access-management/actiondeleteservicespecificcredential-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/credential/master/_listings/aws-identity-and-access-management/actiondeleteservicespecificcredential-get-openapi.md
+- name: AWS Identity and Access Management API - Generate Credential Report
+  x-api-slug: actiongeneratecredentialreport-get
+  description: Generates a credential report for the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/credential/master/_listings/aws-identity-and-access-management/actiongeneratecredentialreport-get-openapi.md
+- name: AWS Identity and Access Management API - Get Credential Report
+  x-api-slug: actiongetcredentialreport-get
+  description: Retrieves a credential report for the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/credential/master/_listings/aws-identity-and-access-management/actiongetcredentialreport-get-openapi.md
 - name: AWS Identity and Access Management API - List Service Specific Credentials
   x-api-slug: actionlistservicespecificcredentials-get
   description: |-
